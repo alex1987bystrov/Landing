@@ -1,0 +1,47 @@
+.body{
+    background-image: url("image.jpg");
+    background-size: 1920px 200%;
+    background-position: center;
+}
+.header-menu{
+    margin-right: 10%;
+}
+.header-menu-list{
+    justify-content: flex-end;
+    text-align: right;
+    li{display: inline-block; margin: 0 0 0 50px;
+        a{color: rgb(255, 218, 9); font-size: x-large; text-decoration: none;
+        }
+    }
+}
+.message{
+    margin: 15% 0% 0% 10%;
+    color: aliceblue;
+    h1{color: rgb(255, 218, 9);}
+}
+.btn{
+    margin: 2% 0% 0% 0%;
+    border-radius: 20%;
+    background-color: rgb(250, 173, 85);
+    color: rgb(0, 0, 0);
+}
+.btn:hover{
+    background-color: rgb(162, 245, 94);
+}
+.panel{
+    display: none;
+    background-color: rgb(61, 1, 1, 0.3);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.panel-input{
+    padding-top: 50%;
+    padding-left: 30%;
+    span{color: rgb(255, 218, 9); font-size: large;}
+}
+.active{
+    display: flex !important;
+}
